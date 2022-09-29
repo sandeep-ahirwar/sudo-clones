@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Login | Sudo Clones</title>
+
+    <link rel="stylesheet" href="/CSS/login.css">
+</head>
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" id="sign-in-btn" class="toggle-btn" >Sign In</button>
+                <button type="button" id="sign-up-btn" class="toggle-btn" >Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="/ASSETS/Images/google.png">
+                <img src="/ASSETS/Images/facebook.png">
+                <img src="/ASSETS/Images/twitter.png">
+            </div>
+            <form id="sign-in" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Sign In</button>
+            </form>
+            <form id="sign-up" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions.</span>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="/JS/login.js"></script>
+    
+</body>
+</html>
