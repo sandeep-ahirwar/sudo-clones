@@ -25,3 +25,7 @@ I started with login page and working on it and you guys can also contribute.
 * Don't spam unnecessary PR's.
 
 
+### Contact
+For any  query regarding this repo then mail me at `sudoclones@sudoclones.anonaddy.com`
+
+
