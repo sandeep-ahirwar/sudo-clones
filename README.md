@@ -8,7 +8,7 @@ This website will be having clones of all famous websites like google, netflix, 
 I started with login page and working on it and you guys can also contribute.
 
 ### What you can do?
-* **For Codes**
+* **For Coders**
   1. Make Clone of any famous website.
   2. Improve existing code.
   3. FrontEnd
