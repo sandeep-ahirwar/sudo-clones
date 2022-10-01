@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Readex+Pro:wght@200&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-bg-color: #2874f0;
+    --main-font: 'Readex Pro', sans-serif;
+    --item-head-font: 'Lato', sans-serif;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font);
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 130px;
+    padding: 0 25px;
+}
+
+nav ul{
+    
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0 -1px 0 58px;
+    font-weight: bold;
+    padding: 0 24px;
+}
+
+.search img{
+    position: absolute;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.search button{
+    height: 27px;
+    text-transform: capitalize;
+    margin: 0 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 7px;
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font);
+    color: white;
+    font-weight: bold;
+}
+
+.search .search-items{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider{
+    width: 80vw;
+    margin: 68px auto;
+    overflow: hidden;
+}
+
+.container .card{
+    max-width: 91vw;
+    margin: auto;
+    box-shadow: 8px 10px 20px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 20px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 20px -1px rgba(0,0,0,0.75);
+}
+
+.card h2{
+    font-family: var(--item-head-font);
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin: 37px auto;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+
