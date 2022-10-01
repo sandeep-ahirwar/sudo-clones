@@ -19,6 +19,8 @@ I started with login page and working on it and you guys can also contribute.
   2. Icons 
   3. Self-made themes for frontend
   4. and many more.
+  
+** Either you can work on issues or directly fork my repo and work on it**
 
 ### Rules and Guidlines
 * Follow [hacktoberfest](https://hacktoberfest.com/participation/#pr-mr-details) guidelines for pull/merge requests.
