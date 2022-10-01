@@ -1,6 +1,7 @@
 # CONTRIBUTING GUIDELINES
 
 Here you will be contributing to create clones of websites.
+For any website we will be accepting max of two clones by different users.
 
 ### How to create PR?
   1. Fork my repository
