@@ -1,0 +1,249 @@
+:root {
+    --white: #ffffff;
+    --off-white: #fafafa;
+    --text-black: #262626;
+    --text-gray: #8e8e8e;
+    --border-gray: #dbdbdb;
+    --accent-blue: #0095f6;
+  }
+  
+  /* Global CSS */
+  
+  * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+    box-sizing: border-box;
+ 
+
+  }
+  
+  body {
+    margin: 0;
+    color: var(--text-black);
+    line-height: 130%;
+    /* background-color: var(--off-white); */
+    background-color: lightskyblue;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  /* Header */
+  
+  .top-bar {
+    /* background-color: var(--white); */
+    background-color: slateblue;
+    border-bottom: 1px solid var(--border-gray);
+    padding: 0.75rem 1rem;
+    position: sticky;
+    top: 0;
+    margin-bottom: 1.5rem;
+    z-index: 10;
+  }
+  
+  .top-bar > nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-family: "Satisfy", cursive;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .search-input {
+    background-color: #efefef;
+    color: var(--text-gray);
+    height: 36px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    max-width: 250px;
+    margin: 0 1rem 0 2rem;
+    cursor: text;
+  }
+  
+  .search-input > svg {
+    width: 16px;
+    height: auto;
+    margin-right: 0.75rem;
+  }
+  
+  .search-input > input {
+    all: unset;
+    flex: 1;
+    min-width: 0;
+    color: var(--text-black);
+  }
+  
+  .search-input > input::placeholder {
+    color: var(--text-gray);
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .search-input {
+      display: none;
+    }
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-item > svg {
+    width: 24px;
+    height: auto;
+  }
+  
+  .profile-pic {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+  }
+  
+  /* News Feed */
+  
+  .news-feed-wrapper {
+    padding: 0 0.5rem;
+  }
+  
+  .news-feed {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .post {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+    background-color: var(--white);
+    font-size: 10.5pt;
+  }
+  
+  .post > header {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .post > header > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-right: 0.75rem;
+  }
+  
+  .post > header > svg {
+    margin-left: 0.75rem;
+    width: 24px;
+    height: auto;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .post > figure {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .post > figure > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .post > .actions {
+    display: flex;
+    padding: 0.25rem 0.25rem 0.5rem;
+    align-items: center;
+  }
+  
+  .post > .actions > svg {
+    margin: 0.5rem;
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .post > .actions > svg > path {
+    pointer-events: none;
+  }
+  
+  .post > .actions > .like-btn:not(.active) > path:last-child {
+    display: none;
+  }
+  
+  .post > .actions > svg:last-child {
+    margin-left: auto;
+  }
+  
+  .post > .likes,
+  .post > .description {
+    padding: 0 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post > button {
+    all: unset;
+    display: block;
+    padding: 0 0.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-gray);
+    cursor: pointer;
+  }
+  
+  .post > .time {
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: var(--text-gray);
+    padding: 0 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post > footer {
+    display: flex;
+    align-items: stretch;
+    padding: 0.75rem;
+    border-top: 1px solid #efefef;
+  }
+  
+  .post > svg {
+    cursor: pointer;
+  }
+  
+  .post > footer > svg {
+    cursor: pointer;
+    width: 24px;
+    height: auto;
+  }
+  
+  .post > footer > input {
+    all: unset;
+    flex: 1;
+    min-width: 0;
+    margin: 0 0.75rem;
+  }
+  
+  .post > footer > button {
+    all: unset;
+    cursor: pointer;
+    color: var(--accent-blue);
+    font-weight: 600;
+  }
+  
+  .post > footer > button:disabled {
+    opacity: 0.5;
+  }
