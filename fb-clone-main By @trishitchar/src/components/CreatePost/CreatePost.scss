@@ -1,0 +1,82 @@
+@import '../../utils/variables';
+@import '../../utils/mixins';
+
+.createPost {
+  background-color: $component-background;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 5px 7px -7px $box-shadow;
+  margin: 0.8rem;
+
+  @include for-xl-devices {
+    width: 90%;
+  }
+
+  @include for-large-devices {
+    width: 85%;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.8rem 0.5rem;
+    width: 99%;
+    border-bottom: 1px solid $border-color;
+
+    @include for-small-screens {
+      overflow: hidden;
+    }
+
+    .form {
+      flex: 1;
+      display: flex;
+
+      @include for-small-screens {
+        flex-wrap: wrap;
+      }
+  
+      input {
+        border-radius: 3rem;
+        padding: 0.7rem 1rem;
+        border: none;
+        background-color: $comment-background;
+        outline: none;
+        border-radius: 3rem;
+        overflow: hidden;
+        margin-left: 0.5rem;
+      }
+
+      .button {
+        display: none;
+        @include for-small-screens {
+          display: flex;
+        }
+      }
+
+      .textInput {
+        flex: 1;
+      }
+      .imgUrlInput {
+        flex: 0.5;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 0.4rem;
+    width: 98%;
+
+    @include for-small-screens {
+      padding: 0.2rem;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../utils/variables';
+@import '../../utils/mixins';
+
+.sideBarRow {
+    display: flex;
+    margin: 0.2rem 0.4rem;
+    cursor: pointer;
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem;
+        transition: linear 200ms;
+
+        h4 {
+            margin-left: 0.8rem;
+            color: $button-icon;
+        }
+
+        .image {
+            height: 2.4rem;
+            width: 2.4rem;
+        }
+
+        .rowIcon {
+            color: $primary;
+        }
+
+        &:hover {
+            background-color: $button-hover;
+            transform: translateY(-2px);
+            border-radius: 0.2rem;
+        }
+    }
+}
+
+.sideBar {
+    padding: 0.2rem;
+    flex: 0.3;
+
+    @include for-xl-devices {
+        flex: 0.2;
+        display: none;
+    }
+    
+    
+}

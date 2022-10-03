@@ -1,0 +1,121 @@
+@import '../../utils/variables';
+@import '../../utils/mixins';
+
+.story {
+  padding: 0.5rem;
+  height: 10rem;
+  width: 6rem;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 5px 17px -7px $box-shadow;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  transition: linear 200ms ease-in-out;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @include for-small-screens {
+    height: 8rem;
+    width: 5rem;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+  }
+
+  .storyAvatar {
+    border: 4px solid $primary;
+    margin: 0.1rem;
+  }
+
+  h4 {
+    position: absolute;
+    bottom: 0.6rem;
+    color: $white;
+    box-shadow: 6px 5px 17px -17px $black;
+
+    @include for-small-screens {
+      font-size: smaller;
+    }
+  }
+}
+
+.createStory {
+  background-color: $component-background;
+  height: 11rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  box-shadow: 0px 5px 17px -7px $box-shadow;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: linear 200ms ease-in-out;
+  cursor: pointer;
+
+  @include for-small-screens {
+    height: 9rem;
+    width: 6rem;
+  }
+
+  @include for-mobile-only {
+    display: none;
+  }
+
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  img {
+    min-height: 75%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+
+    .circle {
+      background-color: $primary;
+      padding: 0.25rem;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      margin-top: -0.2rem;
+      margin-bottom: 0.1rem;
+      border: 4px solid $component-background;
+      color: white;
+    }
+  }
+}
+
+.storyReel {
+  display: flex;
+  flex-direction: row;
+  margin: 0.6rem;
+  align-items: center;
+
+  @include for-xl-devices {
+    width: 90%;
+  }
+
+  @include for-large-devices {
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include for-small-screens {
+    font-size: smaller;
+  }
+}
+
