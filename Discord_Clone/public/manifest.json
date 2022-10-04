@@ -1,0 +1,8 @@
+{
+  "short_name": "Discord UI",
+  "name": "Discord User Interface",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7289DA",
+  "background_color": "#ffffff"
+}
