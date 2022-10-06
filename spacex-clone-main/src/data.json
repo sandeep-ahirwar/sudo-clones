@@ -1,0 +1,34 @@
+{
+    "texts": [
+        {
+            "sText": "",
+            "pText": "SPACEX + T-MOBILE UPDATE",
+            "btnText": "LEARN MORE",
+            "imgUrl": "homepage1.jpg"
+        },
+        {
+            "sText": "UPCOMING LAUNCH",
+            "pText": "STARLINK MISSION",
+            "btnText": "WATCH",
+            "imgUrl": "homepage2.jpg"
+        },
+        {
+            "sText": "RECENT LAUNCH",
+            "pText": "KPLO MISSION",
+            "btnText": "REWATCH",
+            "imgUrl": "homepage3.jpg"
+        },
+        {
+            "sText": "",
+            "pText": "STARSHIP UPDATE",
+            "btnText": "LEARN MORE",
+            "imgUrl": "homepage4.jpg"
+        },
+        {
+            "sText": "",
+            "pText": "STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON",
+            "btnText": "LEARN MORE",
+            "imgUrl": "homepage5.jpg"
+        }
+    ]
+}
