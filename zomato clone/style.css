@@ -1,0 +1,413 @@
+
+@media only screen and (max-width:800px) 
+{
+    width: 100%;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header
+{
+    background-image:url("./img/zomato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-bottom: 10%;
+
+}
+
+h1{
+    font-size: 40px;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.image{
+    height: 12%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.getapp
+{
+    display: flex;
+    color: white;
+    margin-top: 0px;
+    box-sizing: border-box;
+    float: left;
+    
+    margin-left: 90px;
+}
+.navbar
+{
+    color: white;
+    float: right;
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    }
+    
+li
+{
+    padding: 20px;
+}
+.box
+{
+    display: flex;
+    
+
+}
+.content
+{
+    margin-bottom: 3%;
+}
+.fvicon 
+{
+    position: relative;
+    top: 53%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 20%;
+    z-index: 1;
+    width: 18px;
+    height: 20px;
+    
+}
+.first 
+{
+    height: 60px;
+    background-color: white;
+    width: 34px;
+    margin-left: 240px;
+    margin-right:0 ;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input
+{
+    
+    border: none;
+    width: 300px;
+    height: 60px;
+    margin-left:0px;
+    
+}
+input[type="location"]::placeholder
+{
+    text-align:var(12px);
+    
+}
+.next
+{
+    border: none;
+    border-radius: 5px;
+    width: 420px;
+    height: 60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.secondicon 
+{
+    position: relative;
+    top: 53%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 41%;
+    z-index: 1;
+    width: 18px;
+    height: 20px;
+    
+}
+.searchicon 
+{
+    position: relative;
+    top: 52.5%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 44%;
+    z-index: 1;
+    width: 18px;
+    height: 20px;
+    
+}
+.line
+{
+  border-left: 1.5px solid rgb(114, 117, 114);
+  height: 20px;
+  position: absolute;
+  left: 43%;
+  top: 51%; 
+}
+.container1
+{
+    height:300px;
+    width: 100%;
+}
+.order
+{
+    float: left;
+    height:250px;
+    width: 550px;
+    margin-left: 71px; 
+    margin-top: 40px;
+margin-bottom: 80px;
+    border: rgb(218, 216, 216) solid .2px;
+     border-radius: 15px;
+}
+.order:hover
+{
+    transform: scale(1.1);
+    
+    transition: .1s ease;
+}
+.cards1
+{
+    height:150px;
+    width: 550px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url("./img/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpg");
+    position: relative;
+    background-size: cover;
+    border: rgb(218, 216, 216) solid .2px;
+}
+.about
+{
+    margin: 20px;
+    line-height: 30px;
+    
+}
+.container2
+{
+    height:300px;
+    width: 100%;
+}
+.locality
+{
+    float: left;
+margin-left: 71px;
+width: 100%;
+
+
+}
+.cards2
+{
+    margin-top: 30px;
+    border: rgb(218, 216, 216) solid .2px;
+    border-radius: 15px;
+    height: 80px;
+    width: 400px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 4px 0 rgb(218, 216, 216);
+    
+}
+.rightangle
+{
+    float: right;
+    padding-right: 40px;
+}
+
+.container3
+{
+   height:450px;
+   width: 100%;
+   position: relative;
+   background-color: rgb(250, 246, 239);
+}
+.ad 
+{
+    height:300px;
+    width: 100%;
+    margin: 0;
+display: flex;
+justify-content: center;
+}
+.form
+{
+    height: 300px;
+    width: 450px;
+}
+.s
+{
+    background-color: rgb(248, 62, 62);
+    border-radius: 6px;
+    color: white;
+    height: 40px;
+    border: none;
+    padding: 10px;
+}
+#share
+{
+    height:40px; 
+    border-radius: 5px;  
+    border: rgb(218, 216, 216) solid .2px;
+    padding: 10px;
+}
+.btn
+{
+    background-color: rgb(250, 246, 239);
+    border: none;
+    
+}
+.d
+{
+    display:flex;
+    margin: 10px;
+}
+.app
+{
+    margin: 10px;
+}
+.container4
+{
+   height:420px;
+   width: 100%;
+   margin: 30px 0px 0px 80px;
+}
+
+.explore
+{  float: left;
+   color: black;
+}
+.popular
+{
+    float: left;
+}
+.cards3
+{
+    margin-top: 20px;
+    border: rgb(218, 216, 216) solid .2px;
+    border-radius: 8px;
+    width: 1100px;
+    padding: 5px 30px;
+    box-shadow: 0 0 4px 0 rgb(218, 216, 216);
+}
+.container5
+{
+   height:600px;
+   width: 100%;
+   background-color: rgb(252, 251, 250);
+}
+.footer
+{
+    display: flex;
+}
+.zomato 
+{  
+    margin: 60px 0px 0px 80px;
+    
+}
+
+.cards
+{   display: flex;
+    float: right;
+    margin-left: 690px;
+    margin-top: 60px;
+    
+    
+}
+.cards4
+{
+    display: flex;
+    border: rgb(218, 216, 216) solid .2px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.cards4 img
+{
+    margin: 15px 10px 0px 10px;
+}
+.loc 
+{
+    margin: 15px 5px 0px 5px; 
+}
+.more
+{
+    display: flex;
+    margin-left: 60px;
+}
+
+
+.aboutz 
+{
+    
+    display:inline;
+    padding: 20px 40px 0px 20px;
+}
+.aboutz a
+{
+    color:rgb(101, 97, 97);
+    
+}
+.aboutz ul{
+   
+    display:inline;
+    
+}
+.aboutz li 
+{
+    padding: 0px;
+}
+.scicon 
+{
+    padding: 0;
+}
+.secondnav 
+{
+    display: flex;
+}
+.secondnav ul 
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+.secondnav li
+{
+    padding-right: 5px;
+    margin: 0;
+}
+
+.play img 
+{
+    margin-top: 10px;
+}
+.hr
+{
+    border-top: 1px solid rgb(101, 97, 97);
+    width: 1150px;
+    margin: 70px 0px 0px 70px;
+}
+.copyright 
+{
+    color:rgb(101, 97, 97) ;
+    margin: 30px 0px 170px 70px;
+}
+
+
+
+
+
+
